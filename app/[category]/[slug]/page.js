@@ -108,13 +108,13 @@ export default async function PostPage({ params }) {
 
             {post.link && (
               <div className="mt-8 pt-6 border-t">
-                
+                <a
                   href={post.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-red-600 hover:text-red-700 font-medium"
                 >
-                  मूल पोस्ट देखें / View original post →
+                  {`मूल पोस्ट देखें / View original post →`}
                 </a>
               </div>
             )}

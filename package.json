@@ -10,14 +10,22 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "@sanity/client": "^7.13.1",
+    "@sanity/image-url": "1",
+    "@sanity/vision": "4",
     "next": "16.0.8",
+    "next-sanity": "^11.6.10",
     "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react-dom": "19.2.1",
+    "styled-components": "6"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
+    "@sanity/cli": "^4.21.0",
+    "@sanity/types": "^4.21.0",
     "@tailwindcss/postcss": "^4",
     "babel-plugin-react-compiler": "1.0.0",
+    "sanity": "4",
     "tailwindcss": "^4"
   }
 }
